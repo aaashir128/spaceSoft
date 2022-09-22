@@ -1,6 +1,7 @@
 import React from "react";
 import "./SearchDropDown.css";
 import Select from "react-select";
+import { Search } from "@mui/icons-material";
 
 const Property = [
   { value: "Apartment", label: "Apartment" },
@@ -70,7 +71,9 @@ function SearchDropDown() {
         </div>
 
         <div className="searchDropDown__button">
-          <button className="searchDropDown__btn">Search properties</button>
+          <button className="searchDropDown__btn">
+            <Search /> Search
+          </button>
         </div>
       </div>
     </div>

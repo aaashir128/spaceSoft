@@ -54,6 +54,9 @@
 }
 
 .searchDropDown__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
   background-color: #fda45d;
