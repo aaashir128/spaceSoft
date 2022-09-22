@@ -1,0 +1,35 @@
+.footerMid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footerLogo {
+  width: 240px;
+  height: 240px;
+  object-fit: contain;
+}
+
+.footerLanguage {
+  display: flex;
+  margin: 8px 0;
+}
+
+.footerDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footerDetails > h4 {
+  margin-bottom: 16px;
+}
+
+.footerSocialIcon {
+  margin-top: 8px;
+}
+.footerMid__socials {
+  display: flex;
+  flex-direction: column;
+}

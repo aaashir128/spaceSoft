@@ -1,0 +1,65 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  align-items: center;
+}
+.home__img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+}
+
+.homeImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home__destinations {
+  width: 80%;
+}
+
+.home__projects {
+  display: flex;
+  width: 80%;
+  height: 50vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home__tripBook {
+  display: flex;
+  height: 40vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home__activities {
+  margin: 24px 0;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 520px) {
+  .home__tripBook {
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 760px) {
+  .home__projects {
+    height: 100%;
+  }
+  .home__tripBook {
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .home__projects {
+    height: 60%;
+  }
+}

@@ -1,0 +1,12 @@
+.projects {
+  display: flex;
+  margin: 64px 0;
+  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+}
+
+@media screen and (max-width: 980px) {
+  .projects {
+    flex-wrap: wrap;
+  }
+}

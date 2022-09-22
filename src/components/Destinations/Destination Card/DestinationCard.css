@@ -1,0 +1,29 @@
+.destinationCard {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 200px;
+  margin: 0 32px;
+  align-items: flex-start;
+}
+
+.projectCardImg {
+  width: 100%;
+  height: 100%;
+}
+
+.avgPriceTag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avgPriceTag > h5 {
+  margin-left: 4px;
+}
+
+.detailsDiv {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  align-items: flex-start;
+}

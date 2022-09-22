@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.routeImage {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+
+.footer__bottom {
+  display: flex;
+  background-color: #547851;
+  color: white;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+}

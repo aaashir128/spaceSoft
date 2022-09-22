@@ -1,0 +1,18 @@
+.projectCard {
+  display: flex;
+  margin: 32px;
+  flex-wrap: wrap;
+}
+
+.projectCardImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  width: 320px;
+  height: 200px;
+}
+
+.projectCardImg > h3 {
+  color: white;
+}

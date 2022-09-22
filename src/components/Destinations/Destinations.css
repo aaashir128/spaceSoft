@@ -1,0 +1,24 @@
+.destinations {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+
+.cardsMap {
+  display: flex;
+  overflow-x: hidden;
+  justify-content: space-between;
+  scroll-behavior: smooth;
+}
+
+.heading {
+  display: flex;
+  margin: 8px;
+}
+
+.scrollArrows {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  margin: 8px;
+}

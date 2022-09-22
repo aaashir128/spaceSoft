@@ -1,0 +1,28 @@
+.header {
+  height: 64px;
+  display: flex;
+  flex: 1 1;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid lightgrey;
+  /* background-color: lig; */
+}
+.headerLogo {
+  width: 128px;
+  object-fit: contain;
+}
+
+.header__left {
+  margin-left: 10%;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  margin-right: 10%;
+}
+.header__right > p {
+  margin-right: 8px;
+}
+.header__right > svg {
+  margin-left: 8px;
+}
